@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-12-17T07:39:53.457Z</updated>
+  <updated>2015-12-17T08:03:26.491Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,8 +18,8 @@
     <title><![CDATA[用github和hexo搭建blog]]></title>
     <link href="http://yoursite.com/2015/12/17/hexo-install/"/>
     <id>http://yoursite.com/2015/12/17/hexo-install/</id>
-    <published>2015-12-17T07:39:53.457Z</published>
-    <updated>2015-12-17T07:39:53.457Z</updated>
+    <published>2015-12-17T08:03:26.491Z</published>
+    <updated>2015-12-17T08:03:26.491Z</updated>
     <content type="html"><![CDATA[<h2 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h2><p>win7上搭建自己的blog用于记录学习到的东西。</p>
 <h3 id="u5B89_u88C5Node-JS"><a href="#u5B89_u88C5Node-JS" class="headerlink" title="安装Node.JS"></a>安装Node.JS</h3><p>从<a href="http://nodejs.org/" target="_blank" rel="external">Node.JS</a>官网下载安装。</p>
 <h3 id="u5B89_u88C5hexo"><a href="#u5B89_u88C5hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><pre><code>npm install hexo -g
@@ -45,7 +45,10 @@ npm install hexo-generator-feed@1 --save
 npm install hexo-generator-sitemap@1 --save
 </code></pre><h3 id="u67E5_u770B_u6548_u679C"><a href="#u67E5_u770B_u6548_u679C" class="headerlink" title="查看效果"></a>查看效果</h3><p>运行下面命令，然后打开浏览器，输入http://<yourip>:4000查看是否安装成功</yourip></p>
 <pre><code>hexo server
-</code></pre>]]></content>
+</code></pre><h3 id="u53D1_u5E03"><a href="#u53D1_u5E03" class="headerlink" title="发布"></a>发布</h3><p>运行下面命令然后将public目录下的内容拷贝到github项目目录下并且上传</p>
+<pre><code>hexo g
+</code></pre><h3 id="u53C2_u8003"><a href="#u53C2_u8003" class="headerlink" title="参考"></a>参考</h3><p><a href="http://wsgzao.github.io/post/hexo-guide/" target="_blank" rel="external">http://wsgzao.github.io/post/hexo-guide/</a></p>
+]]></content>
     <summary type="html">
     <![CDATA[<h2 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h2><p>win7上搭建自己的blog用于记录学习到的东西。</p>
 <h3 id="u5B89_u88C5Nod]]>
